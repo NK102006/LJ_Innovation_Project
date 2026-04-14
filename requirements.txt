@@ -1,8 +1,4 @@
-flask
-flask-socketio
-opencv-python
-mediapipe
-SpeechRecognition
-groq
-numpy
-python-dotenv
+flask==3.0.3
+flask-socketio==5.3.6
+groq==0.9.0
+python-dotenv==1.0.1

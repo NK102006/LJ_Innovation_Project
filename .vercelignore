@@ -1,0 +1,25 @@
+# Heavy local-only files
+camera_server.py
+app.py
+
+# Databases (Vercel uses /tmp, not project root)
+*.db
+*.sqlite
+
+# Cache & logs
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.log
+*.csv
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Dev/test artifacts
+.git/
+.venv/
+venv/
+node_modules/
