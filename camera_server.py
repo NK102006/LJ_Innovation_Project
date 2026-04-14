@@ -73,7 +73,7 @@ def speech_listener():
     global current_speech
     mic = sr.Microphone()
     recognizer.energy_threshold = 300
-    with mic as src:
+    with mic as src:pip install groq httpx==0.27.0
         recognizer.adjust_for_ambient_noise(src, duration=1)
     while True:
         if is_listening:
